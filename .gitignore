@@ -33,3 +33,11 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Copias, etc
+*~
+*swp
+
+# Salida por defecto
+output
+
