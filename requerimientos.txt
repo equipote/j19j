@@ -1,0 +1,5 @@
+Markdown==2.3.1
+pelican==3.2.2
+Fabric==1.7.0
+typogrify==2.0.0
+
