@@ -1,0 +1,3 @@
+[submodule "temas"]
+	path = temas
+	url = https://github.com/getpelican/pelican-themes

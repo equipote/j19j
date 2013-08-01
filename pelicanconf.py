@@ -5,11 +5,15 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Equipo Te'
 SITENAME = u'Jornadas Estatales DRY 2013'
-SITEURL = ''
-
+SITESUBTITLE = u'Subtitulo de la página'
+#SITEURL = 'http://jornadas-2013.democraciarealya.es'
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'es'
+GITHUB_URL = 'http://github.com/equipote/j19j/'
+
+#PIWIK_URL = u''
+#PIWIK_SITE_ID = u''
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -35,3 +39,14 @@ DEFAULT_PAGINATION = 10
 
 # Directorios estáticos:
 STATIC_PATHS = ['images']
+
+# Ficheros a copiar (robots.txt, favicon.ico y/u otros)
+FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
+
+LOCALE = ('es_ES.UTF-8')
+
+DEFAULT_DATE = (2013, 7, 19, 14, 1, 1)
+DATE_FORMATS = {'es': ('es_ES.UTF-8','%a, %d %b %Y'),}
+
+#THEME = "../temas/mnmlst"
+

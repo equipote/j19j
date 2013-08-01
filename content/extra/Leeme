@@ -1,0 +1,8 @@
+Este directorio continene aquellos ficheros que queramos que se copien
+en la raiz de la web.
+
+Algunos ejemplos comunes son:
+
+    * robots.txt
+    * favicon.ico
+    * etc

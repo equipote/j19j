@@ -1,0 +1,27 @@
+Esta es la estructura de los contenidos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+content/
+├── extra
+│   └── robots.txt
+├── images
+│   └── estatal-dry.jpg
+└── pages
+    ├── acercade.rst
+    ├── inicio.rst
+    └── Punto
+        ├── 1
+        │   └── Dinámicas de grupos y Situación actual de la Plataforma.rst
+        ├── 2
+        │   └── Misión y visión de la Plataforma.rst
+        ├── 3
+        │   └── Propuestas e ideas sobre acciones a realizar.rst
+        ├── 4
+        │   └── Coordinación 15 Octubre.rst
+        ├── 5
+        │   └── Herramientas de participación de la Plataforma.rst
+        ├── 6
+        │   └── Conclusiones y lluvia de ideas.rst
+        └── 7
+            └── Debate de la agenda de otoño invierno.rst
+

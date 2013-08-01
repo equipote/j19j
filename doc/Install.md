@@ -38,15 +38,20 @@ Instalar este proyecto
 
     * pip install -r requerimientos.txt
 
-5) Creación del directorio de salida (si no existe)
+5) Actualizar submodulos:
+
+    * git submodule update --init --recursive
+
+
+6) Creación del directorio de salida (si no existe)
 
     * mkdir output
 
-6) Generación de las páginas estáticas
+7) Generación de las páginas estáticas
 
     * make html
 
-7) Ver las páginas estáticas
+8) Ver las páginas estáticas
 
     make serve
 
