@@ -25,7 +25,7 @@ Instalar este proyecto
 
     * cd ~/Proyectos/Python/
 
-    * git clone git clone git@github.com:equipote/j19j.git
+    * git clone https://github.com/equipote/j19j.git
 
 3) Creación del entorno virtual para este proyecto
 
