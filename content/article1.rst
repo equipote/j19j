@@ -1,9 +1,9 @@
-The first article
-#################
+El primer artículo
+##################
 
-:date: 2012-12-01 10:02
+:date: 2013-08-01 10:02
 
-See below intra-site link examples in reStructuredText format.
+Ver debajo dos ejemplos de enlaces en formato reStructuredText
 
 `a link relative to content root <|filename|/cat/article2.md>`_
 `a link relative to current file <|filename|cat/article2.md>`_

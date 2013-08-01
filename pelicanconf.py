@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- #
+# -*- coding: utf-8 -*-
+
 from __future__ import unicode_literals
 
 AUTHOR = u'Equipo Te'
@@ -16,19 +17,21 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('Pelican', 'http://getpelican.com/'),
+    ('Python.org', 'http://python.org/'),
+    ('Jinja2', 'http://jinja.pocoo.org/'),
+    ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('You can add links in your config file', '#'),
+    ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 # Directorios estáticos:
-STATIC_PATHS = ['images',]
+STATIC_PATHS = ['images']
