@@ -11,7 +11,9 @@ Inicio
 
 *Texto de ejemplo*:
 
-    Esta es la página de inicio
+    Esta es la página de inicio [CIT2002]_ 
+
+    Some text that requires a footnote [#f1]_ .
 
 ----
 
@@ -35,6 +37,10 @@ Inicio
     the body of the topic, and are
     interpreted as body elements.
 
+
+----
+
+
 .. sidebar:: Sidebar Title
         :subtitle: Optional Sidebar Subtitle
 
@@ -44,20 +50,27 @@ Inicio
 
 :Whatever: this is handy to create new field
 
+
+----
+
+
 .. glossary::
 
     apical
         at the top of the plant.
 
-.. centered:: Centrado
 
-.. index:: index
-
-:download:`download test.py <test.py>`
+.. centered:: 
 
 ----
 
-Some text that requires a footnote [#f1]_ .
+.. index:: 
+
+----
+
+:download: `download test.py <test.py>`
+
+----
 
 .. rubric:: Footnotes
 
@@ -67,11 +80,6 @@ Some text that requires a footnote [#f1]_ .
 
 .. [CIT2002] A citation
           (as often used in journals).
-
-
-[CIT2002]_ 
-Cosa
-
 
 ----
 
