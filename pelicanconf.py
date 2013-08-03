@@ -3,19 +3,20 @@
 
 from __future__ import unicode_literals
 
-AUTHOR = u'Jornadas J-19 2013'
-SITENAME = u'Jornadas Estatales DRY 2013'
-SITESUBTITLE = u'Subtitulo de la página'
+AUTHOR = u'pobrecito hablador'
+SITENAME = u'Jornadas Estatales DRY'
+SITESUBTITLE = u'2013'
 SITESUBTITLES = ('Left Side', 'Right Side') #Solo en algunos temas puntuales
 #SITEURL = 'http://jornadas-2013.democraciarealya.es'
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Madrid'
 
 DEFAULT_LANG = u'es'
-
 HTML_LANG = 'es'
+
 TWITTER_USERNAME = '@democraciareal'
 
 REVERSE_ARCHIVE_ORDER = True
+
 TAG_CLOUD_STEPS = 8
 
 MARKUP = ((u'rst'),)
@@ -50,20 +51,24 @@ SOCIAL = (
     ('Github', '#'),
 )
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
 # Directorios estáticos:
-STATIC_PATHS = ['images', 'sounds']
+STATIC_PATHS = ['images', 'sounds', 'grabaciones']
 
 # Ficheros a copiar (robots.txt, favicon.ico y/u otros)
-FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
+FILES_TO_COPY = (
+    ('extra/robots.txt', 'robots.txt'),
+    ('extra/favicon.ico', 'favicon.ico'),
+)
 
 LOCALE = ('es_ES.UTF-8')
 
 DEFAULT_DATE = (2013, 7, 19, 14, 1, 1)
+
 DATE_FORMATS = {'es': ('es_ES.UTF-8','%d/%m/%Y'),}
 
 FOOTER_TEXT = 'Replace pelican credit'
@@ -73,6 +78,7 @@ THEME = "fresh"
 GOOGLE_CUSTOM_SEARCH = '004640732731469104663:ay2rocw8so8'
 
 PLUGIN_PATH = 'plugins'
+
 PLUGINS = ['assets', 'sitemap', 'gravatar', 'html_rst_directive']
 
 SITEMAP = {
