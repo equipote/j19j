@@ -14,7 +14,7 @@ Restructured Text (reST) and Sphinx CheatSheet
     This is not an exhaustive description but it should allow you to start and create already nice documentation.
 
 
-    :Date: |today|
+    :Date: 2013-08-02
     :Author: **Thomas Cokelaer**
 
 
@@ -160,9 +160,9 @@ The second method use the ``ref`` role as follows::
 
     :ref:`rst_tutorial`
 
-With the first method, the link appears as rst_tutorial_, whereas the second method use the first title's name found after the link. Here, the second method would appear as :ref:`rst_tutorial`. 
+With the first method, the link appears as rst_tutorial_, whereas the second method use the first title's name found after the link. Here, the second method would appear as `rst_tutorial`. 
 
-Note that the second method is compulsary if the link is to be found in an external RST file. For instance, the introduction page is an external page with a link called ``introduction`` at the top of the page. You can jump there by writting ``:ref:`introduction```, which appears as: :ref:`introduction`.
+Note that the second method is compulsary if the link is to be found in an external RST file. For instance, the introduction page is an external page with a link called ``introduction`` at the top of the page. You can jump there by writting :ref:introduction, which appears as: `introduction`.
 
 
 .. note:: Note that if you use the ``ref`` role, the final underscore is not required anymore.
@@ -286,9 +286,9 @@ Then, it is also possible to include the contents of a file as follows:
 
 For instance, the ``sample.py`` file contents can be printed:
 
-.. literalinclude:: sample.py
-    :linenos:
-    :language: python
+.. .. literalinclude:: sample.py
+..     :linenos:
+..     :language: python
 
 
 
@@ -349,7 +349,7 @@ A first method is the following syntax::
 
 gives:
 
-.. htmlonly::
+.. .. htmlonly::
 
     +------------+------------+-----------+
     | Header 1   | Header 2   | Header 3  |
@@ -378,7 +378,7 @@ The previous syntax can be simplified::
 
 gives:
 
-.. htmlonly::
+.. .. htmlonly::
 
     =====  =====  ======
        Inputs     Output
@@ -412,7 +412,7 @@ which means three left-adjusted (LaTeX syntax). By default, Sphinx uses a table 
 
 gives 
 
-.. htmlonly::
+.. .. htmlonly::
 
     .. tabularcolumns:: |l|c|p{5cm}|
 
@@ -512,22 +512,22 @@ Auto-document your python code
 
 Let us suppose you have a python file called *sample.py* with a function called *square*. The function's code is :
 
-.. literalinclude:: sample.py
-    :linenos:
-    :language: python
-    :lines: 5-15
+.. .. literalinclude:: sample.py
+..     :linenos:
+..     :language: python
+..     :lines: 5-15
 
 Using the **autofunction** :
 
-.. code-block:: rest
+.. .. code-block:: rest
+..
+..    .. currentmodule:: sample
+..    .. autofunction:: square
 
-    .. currentmodule:: sample
-    .. autofunction:: square
+.. Gives
 
-Gives
-
-.. currentmodule:: sample
-.. autofunction:: square
+.. .. currentmodule:: sample
+.. .. autofunction:: square
 
 
 
@@ -545,16 +545,16 @@ Using the **module** directive also creates an index (see top right of this page
 
 The results will be shown in a module section (link in top right panel).
 
-.. module:: sample
-    :platform: Unix, Windows
-    :synopsis: sample of documented python code
+.. .. module:: sample
+..    :platform: Unix, Windows
+..    :synopsis: sample of documented python code
 
 
 .. note:: the directive module should be use only once for a given module.
 
 .. warning:: the python code must be in the PYTHONPATH.
 
-.. seealso:: http://sphinx.pocoo.org/markup/desc.html
+.. .. seealso:: http://sphinx.pocoo.org/markup/desc.html
 
 python docstrings
 =====================
@@ -639,7 +639,7 @@ Colored boxes: note, seealso, todo and warnings
 
 There are simple directives like **seealso** that creates nice colored boxes:
 
-.. seealso:: This is a simple **seealso** note. 
+.. .. seealso:: This is a simple **seealso** note.
 
 created using::
 
@@ -721,9 +721,9 @@ Substitutions
 ==============
 Substitutions  are defined as follows::
 
-    .. _Python: http://www.python.org/
+..    .. _Python: http://www.python.org/
 
-and to refer to it, use the same syntax as for the internal links: just insert the alias in the text (e.g., ``Python_``,  which appears as Python_ ).
+And to refer to it, use the same syntax as for the internal links: just insert the alias in the text (e.g., ``Python_``,  which appears as Python ).
 
 A second method is as follows::
 
@@ -754,10 +754,10 @@ glossary
 
 gives
  
-.. glossary::
+.. .. glossary::
 
-    apical
-        at the top of the plant.
+..    apical
+..        at the top of the plant.
 
 
 index
@@ -774,7 +774,7 @@ download
 
     :download:`download samplet.py <sample.py>`
 
-gives :download:`download sample.py <sample.py>`
+.. gives :download:`download sample.py <sample.py>`
 
 
 hlist directive
@@ -782,7 +782,7 @@ hlist directive
 
 hlist can be use to set a list on several columns.
 
-.. rst:directive:: .. hlist::
+.. .. rst:directive:: .. hlist::
 
     ::
 
@@ -893,7 +893,7 @@ There is also tocdepth and nocomments metadata. See Sphinx homepage.
 metainformation
 =================
 
-.. rst:directive:: .. sectionauthor:: name <email>
+.. .. rst:directive:: .. sectionauthor:: name <email>
 
     Specifies the author of the current section.::
 
@@ -911,9 +911,9 @@ contents directives
 ====================
 
 
-.. rst:directive:: .. contents::
+.. .. rst:directive:: .. contents::
 
-    ::
+..    ::
 
         .. contents:: a title for the contents
             :depth: 2
@@ -1004,8 +1004,8 @@ Similarly to the note directive, one can include todo boxes bu it requires the `
     todo_include_todos=True
 
 
-.. todo:: a todo box
-  
+.. .. todo:: a todo box
+
 
 copybutton
 ==================

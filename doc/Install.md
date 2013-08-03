@@ -40,6 +40,10 @@ Instalar este proyecto
 
 5) Actualizar submodulos:
 
+    * git submodule add https://github.com/getpelican/pelican-themes temas
+
+    * git submodule add https://github.com/getpelican/pelican-plugins plugins
+
     * git submodule update --init --recursive
 
 
