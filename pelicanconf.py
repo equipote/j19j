@@ -56,7 +56,7 @@ DEFAULT_PAGINATION = 5
 # RELATIVE_URLS = True
 
 # Directorios estáticos:
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'sounds']
 
 # Ficheros a copiar (robots.txt, favicon.ico y/u otros)
 FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
@@ -72,4 +72,20 @@ THEME = "fresh"
 
 GOOGLE_CUSTOM_SEARCH = '004640732731469104663:ay2rocw8so8'
 
+PLUGIN_PATH = 'plugins'
+PLUGINS = ['assets', 'sitemap', 'gravatar', 'html_rst_directive']
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
 
