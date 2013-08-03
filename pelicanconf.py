@@ -13,7 +13,7 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'es'
 
 HTML_LANG = 'es'
-TWITTER_USERNAME = '@democraciarealya'
+TWITTER_USERNAME = '@democraciareal'
 
 REVERSE_ARCHIVE_ORDER = True
 TAG_CLOUD_STEPS = 8
