@@ -11,7 +11,7 @@ Dinámicas de grupos y Situación actual de la Plataforma
 
 .. html::
     <div>
-        <audio preload="auto" controls>
+        <audio controls>
             <source src="/static/sounds/test.ogg" type="audio/ogg">
             <source src="/static/sounds/test.mp3" type="audio/mp3">
             Tu navegador no implementa el elemento <code>video</code>.
