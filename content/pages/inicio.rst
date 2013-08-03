@@ -8,6 +8,13 @@
     :alt: Imagen de un momento de las jornadas
     :width: 100%
 
+.. |Desktop| image:: /static/images/desktop.jpg
+    :alt: Captura de imagen en un portatil
+
+.. |Movil| image:: /static/images/movil.jpg
+    :alt: Captura de imagen en un móvil
+
+
 Jornadas Estatales 2013
 =======================
 
@@ -62,6 +69,8 @@ Jornadas Estatales 2013
 
         - Conclusiones a compartir con el movimiento
         - Debate de la agenda de otoño invierno
+
+    |Movil|
 
     Ya sabemos que sí, se puede.
     Porque no somos mercancias en manos de Políticos ni Banqueros
