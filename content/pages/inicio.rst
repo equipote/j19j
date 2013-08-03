@@ -1,37 +1,37 @@
-Jornadas Estatales 2013
-#######################
-
-:date: 2010-1-1 00:00
-:tags: Páginas
-:category: Páginas Estáticas
-:slug: inicio
-:author: Equipo Te
-:summary: Página estática con una especie de portada
-:saves_as: index.html
-
+:date: 2010-01-01 00:00
+:slug: portada
+:license: WTFPL
+:url: /
+:save_as: index.html
 
 
 .. |DRY| replace:: *Democracia Real Ya!*
+
 
 .. |Cartel| image:: /static/images/cartel-3-300x182.jpg
     :alt: Cartel anunciador de las jornadas
     :width: 50%
 
+
 .. |Foto| image:: /static/images/estatal-dry.jpg
     :alt: Imagen de un momento de las jornadas
     :width: 100%
 
+
 .. |Desktop| image:: /static/images/desktop.jpg
     :alt: Captura de imagen en un portatil
+
 
 .. |Movil| image:: /static/images/movil.jpg
     :alt: Captura de imagen en un móvil
 
 
-.. contents:: Índice de contenidos
-    :depth: 5
+.. contents:: **ÍNDICE DE CONTENIDOS**
+    :depth: 2
 
 
+Jornadas Estatales 2013
+#######################
 
 Anuncio
 *******
@@ -66,7 +66,7 @@ Anuncio
 
     El **Domingo 21** tuvimos el placer de invitar a todos los grupos, colectivos y personas que quisieron participar, a compartir las conclusiones del encuentro y a debatir sobre las lineas estratégicas del próximo curso de esta lucha abierta contra la sin razón del sistema dominante desde la no-violencia, la horizontalidad, la inclusividad y a través de la inteligencia colectiva. 
 
-    Este fué el orden del día para esa jornada abierta:
+    Este fue el orden del día para esa jornada abierta:
 
     *Domingo 21*:
 
@@ -83,7 +83,7 @@ Anuncio
 
     Ya sabemos que sí, se puede.
 
-    Porque no somos mercancias en manos de Políticos ni Banqueros
+    Porque no somos mercancia en manos de Políticos ni Banqueros
 
     |DRY|
 
@@ -249,7 +249,9 @@ Propuestas completas y planes de trabajo y acciones DRY
 Consensos de la reunión mumble
 ##############################
     - Realizar pagina Encuentro Estatal Dry2013 que contenga info, audios, enlaces, foto. Sitio oficial donde referenciar a la gente.
-    - Abrir hilos en Agora sobre cada una de las temáticas y linkarlos a fb y mail a los nodos.
+
+    - Abrir hilos en Ágora sobre cada una de las temáticas y linkarlos a fb y mail a los nodos.
+
     - Emplazar a reunión de Reunión el miércoles 14 de Agosto 21h.
 
 
