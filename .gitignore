@@ -40,4 +40,5 @@ nosetests.xml
 
 # Salida por defecto
 output
+.gitmodules
 
