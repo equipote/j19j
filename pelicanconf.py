@@ -7,7 +7,7 @@ AUTHOR = u'pobrecito hablador'
 SITENAME = u'Jornadas Estatales DRY'
 SITESUBTITLE = u'2013'
 SITESUBTITLES = ('Left Side', 'Right Side') #Solo en algunos temas puntuales
-#SITEURL = 'http://jornadas2013.democraciarealya.es'
+SITEURL = 'http://jornadas2013.democraciarealya.es'
 TIMEZONE = 'Europe/Madrid'
 
 DEFAULT_LANG = u'es'
@@ -27,7 +27,7 @@ MARKUP = (
     (u'html'),
 )
 
-DISQUS_SITENAME = ''
+DISQUS_SITENAME = 'jornadas2013'
 
 GITHUB_URL = 'http://github.com/equipote/j19j/'
 
