@@ -7,11 +7,13 @@ AUTHOR = u'pobrecito hablador'
 SITENAME = u'Jornadas Estatales DRY'
 SITESUBTITLE = u'2013'
 SITESUBTITLES = ('Left Side', 'Right Side') #Solo en algunos temas puntuales
-#SITEURL = 'http://jornadas-2013.democraciarealya.es'
+#SITEURL = 'http://jornadas2013.democraciarealya.es'
 TIMEZONE = 'Europe/Madrid'
 
 DEFAULT_LANG = u'es'
 HTML_LANG = 'es'
+
+#DEFAULT_CATEGORY = u'Otras cosas'
 
 TWITTER_USERNAME = '@democraciareal'
 
@@ -19,12 +21,17 @@ REVERSE_ARCHIVE_ORDER = True
 
 TAG_CLOUD_STEPS = 8
 
-MARKUP = ((u'rst'),)
+MARKUP = (
+    (u'rst'),
+    (u'md'),
+    (u'html'),
+)
 
 DISQUS_SITENAME = ''
 
 GITHUB_URL = 'http://github.com/equipote/j19j/'
 
+#PIWIK_SSL_URL = u''
 #PIWIK_URL = u''
 #PIWIK_SITE_ID = u''
 
@@ -45,8 +52,8 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ('Facebook', '#'),
-    ('Twitter', '#'),
+    ('facebook', '#'),
+    ('twitter', '#'),
     ('Gitorious', '#'),
     ('Github', '#'),
 )
@@ -73,7 +80,8 @@ DATE_FORMATS = {'es': ('es_ES.UTF-8','%d/%m/%Y'),}
 
 FOOTER_TEXT = 'Replace pelican credit'
 
-THEME = "fresh"
+#THEME = "fresh"
+THEME = "tema_personalizado/water-iris/"
 
 GOOGLE_CUSTOM_SEARCH = '004640732731469104663:ay2rocw8so8'
 
@@ -94,4 +102,27 @@ SITEMAP = {
         'pages': 'monthly'
     }
 }
+
+DELETE_OUTPUT_DIRECTORY = True
+
+#PAGE_DIR = ('pages')
+
+#OUTPUT_PATH = ('/tmp/')
+
+#ARTICLE_EXCLUDES = (('pages',))
+
+#ARTICLE_DIR = ('articles')
+
+#PDF_GENERATOR = False
+
+#YEAR_ARCHIVE_SAVE_AS = True
+#MONTH_ARCHIVE_SAVE_AS = True
+#DAY_ARCHIVE_SAVE_AS = True
+
+MENUITEMS = (
+    ('Inicio', '/'),
+)
+
+# global metadata to all the contents
+#DEFAULT_METADATA = (('yeah', 'it is'),)
 
