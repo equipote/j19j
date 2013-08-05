@@ -22,7 +22,7 @@
                             {% include 'article_infos.html' %}
                             {{ article.summary }}
                             <p class="readmore">
-                                <a class="btn btn-info" href="{{ SITEURL }}/{{ article.url }}">Read more...</a>
+                                <a class="btn btn-info" href="{{ SITEURL }}/{{ article.url }}">Ver más...</a>
                             </p>
                         </div><!-- /.entry-content -->
 
@@ -31,8 +31,7 @@
                 </li>
             {% if loop.last %}
                 </ol><!-- /#posts-list -->
-                {% if loop.last and (articles_page.has_previous()
-                or not articles_page.has_previous() and loop.length > 1) %}
+                {% if loop.last and (articles_page.has_previous() or not articles_page.has_previous() and loop.length > 1) %}
                     {% include 'pagination.html' %}
                 {% endif %}
             </section><!-- /#content -->
