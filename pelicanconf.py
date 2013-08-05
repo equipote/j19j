@@ -81,7 +81,7 @@ DATE_FORMATS = {'es': ('es_ES.UTF-8','%d/%m/%Y'),}
 FOOTER_TEXT = 'Replace pelican credit'
 
 #THEME = "fresh"
-THEME = "tema_personalizado/water-iris/"
+THEME = "skin/"
 
 GOOGLE_CUSTOM_SEARCH = '004640732731469104663:ay2rocw8so8'
 
